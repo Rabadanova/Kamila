@@ -1,48 +1,55 @@
 body {
 background-color: #D9BFA0; /*цвет фона*/
 background:url(photo3.jpg); /* Фоновый цвет и фоновый рисунок*/
-color: #42340F; /*Цвет текста на странице*/
+color: #522719; /*Цвет текста на странице*/
 background-attachment: fixed; /* Фон страницы фиксируется */
 background-repeat: repeat-x; /* Изображение повторяется по горизонтали*/
 font:16px "Century Gothic";/*шрифт!!!!!!!*/
 text-decoration:none;
 /*font-weight: 0;*/
 }
+
 .wrapper {
 margin: 0 auto ;/*центрируем блок с классом wrapper*/
 overflow: hidden;
 width: 1000px;/*ширина блока wrapper*/
+
 }
 .header {
 /* убралa position:fixed;/*фиксируем блок с классом header*/
-/*background:url(images/header.jpg) no-repeat;*/
 width: 1000px;/*ширина шапки*/
-height: 150px;/*высота шапки*/
-}
+height: 140px;/*высота шапки*/
+/*background-color: #213D19*/}
+
 .menu {
 margin: 0 auto;/*центрируем блок с классом wrapper*/
 overflow: hidden;
-/*width: 990px; /*ширина панели меню*/
+width: 1000px; /*ширина панели меню*/
 /*height: 70px /*высота панели меню*/
-margin-top: 30px;/*отступ сверху*/
-/*border-radius: 0px;/*Закругление углов*/
-color: #F2EDD5;
+margin-top: 0px;/*отступ сверху*/
+/*border-radius: 2px;/*Закругление углов*/
+/*color: #0D2426;
 /*-moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border: 1px solid #42340F;*/
 /*box-shadow:3px 3px 5px 0px #42340F;/*тень*/
+position: fixed;
+top: 0;
+background-color: #1A403C;
+opacity: .8;/*прозрачность*/
 }
 .menu ul li {
 list-style:none;/*убираем маркеры*/
 float:right;/*выравнивание по right краю*/
-padding:10px 25px 10px 0;/*отступы*/}
+padding:25px 15px 10px 0px;/*отступы*/}
 .menu ul li a, span {
-font:24px "Century Gothic";/*шрифт!!!!!!!*/
-color:#8B4513; /*цвет текста*/
+font:25px "Century Gothic";/*шрифт!!!!!!!*/
+color:#fad201; /*цвет текста*/
 text-decoration:none;} /* убираем подчёркивание */
 span {
+/* лого тут*/
 float: left;
-margin: 10px 20px;} 
+margin: 25px  /*отодвигаем слова и тем самым делаем меню короче*/  20px;} 
 h1 h2 h3  {
 padding-left: 20px;
 padding-bottom: 20px;
@@ -56,47 +63,28 @@ font:18px "Century Gothic";
 width: 960px;
 margin: 0 auto;
 }
+/*
+.footer{
+    border-top: 2px solid #898989;
+    background-color: #ebebeb;
+    height: 400px;
+} 
 
+.footer h3{
+    font-size: 24px;
+    margin-top: 35px;
+} */
 
-.footer {
-    width:1000px;
-    margin:100px auto;/* расстояние от основного текста*/
-} /*ничего, но надо попробовать с размером и фотоном поиграть*/
- .footer_main {
-    margin-top:100px; /*растояние от основной страницы*/
-   /* background-color:#000000;*/
-   /* width: 1000px;* эта херь двигает текст влево*/ 
-}
- .footer-title{
-    text-align: center;
-}
-.tet_header{
-    text-align: center;
-}
- .clear_footer,.b-footer__social,.bem_sitemap {
-    margin-top:12px;
-    margin-left:18px;
-    padding-left:26px;
-    float:left; 
-}/* фон стал черным текст центрировался. не трогай.*/
-.size_block {
-    width: 280px;
-}/* столбцы стали уже
-поменяла цифру на 333 - вышла вообще какая-та херня*/
-.description {
-    width:295px;
-}
- .btext {
-    text-align: justify;}
-.b-sitemap__links {
-    /*float:center;*/
-    text-align: justify;
-} /* текст становится в одну ширенгу*/ 
-.glow_undecorate {
-    /* color: #592A20*/
-}  /*цвет текста*/ 
-.b-link_block {
-    margin-top:15px;
-    margin-bottom:50px;/*расстояние снизу*/
-    display:block;
-    }/*растояние между строками*/
+.footer { background: /*#703401;*/; 
+      padding-top: 30px; 
+      padding-bottom: 20px; }
+
+.layout { overflow: hidden; 
+        background-color: ;
+        }
+.col1 { text-align: justify; width: 333px; float: left; }
+.col2 { /*text-align: justify;*/ width: 333px; float: left;}
+.col3 { text-align: justify; width: 333px; float: right; }
+
+.col1 .col2 .col3 {  }
+.h4 { font-weight:bold; }
